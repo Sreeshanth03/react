@@ -7,7 +7,7 @@ export const Cards=()=>{
 <div>
 <Heading/>
     <ImagesCom/> <br/>
-    <ButtonCom/>
+    <ButtonCom/> <br/>
  
 
     
