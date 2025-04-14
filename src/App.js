@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { ButtonCom } from "./button/button.js";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import{ImagesCom} from"./tags/image.js"
+import{List1} from "./List/List.js"
+import{Cards} from "./Cards/cards.js"
+const App=()=>{
+return (<div>
+<ButtonCom/>
+<ButtonCom/>
+<ImagesCom/>
+<List1/>
+<Cards/>
+</div>
+
+);
 }
+export default App
 
-export default App;
